@@ -3,7 +3,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Shorturl extends CI_Controller {
 
-	private $string = "abcdfghjkmnpqrstvwxyz|ABCDFGHJKLMNPQRSTVWXYZ|0123456789";
+	private $string = "abcdfghjkmnpqrstvwxyzABCDFGHJKLMNPQRSTVWXYZ0123456789";
 
 	public function __construct(){
 
